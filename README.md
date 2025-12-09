@@ -1,8 +1,17 @@
 # EventMatch - AI Photo Finder
 
-EventMatch is a powerful, privacy-focused client-side application that helps users find photos of themselves in large event galleries using AI face recognition. 
+> **✨ This project has been Vibecoded ✨**
 
-Built with **React 19**, **TypeScript**, and **face-api.js**, this application runs face detection and recognition entirely in your browser, ensuring your biometric data never leaves your device.
+## 🎯 The Problem
+In large events with **1000s of photos**, finding your personal pictures is like finding a needle in a haystack. It's a tedious, time-consuming struggle for attendees to scroll through endless galleries just to find a few memories.
+
+## 💡 The Solution
+**EventMatch** automates this entirely.
+1.  **Upload the Gallery**: Load the full set of event photos.
+2.  **Scan Your Face**: Use your camera to provide a reference.
+3.  **Get Your Photos**: The AI instantly filters and presents only the photos *you* are in.
+
+**No Internet Required.** All processing happens locally on your device for maximum privacy and speed.
 
 ![EventMatch Banner](https://via.placeholder.com/1200x400?text=EventMatch+AI+Photo+Finder)
 
