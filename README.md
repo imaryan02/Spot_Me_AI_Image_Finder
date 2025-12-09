@@ -1,4 +1,4 @@
-# EventMatch - AI Photo Finder
+# SpotMe - AI Photo Finder
 
 > **✨ This project has been Vibecoded ✨**
 
@@ -6,14 +6,14 @@
 In large events with **1000s of photos**, finding your personal pictures is like finding a needle in a haystack. It's a tedious, time-consuming struggle for attendees to scroll through endless galleries just to find a few memories.
 
 ## 💡 The Solution
-**EventMatch** automates this entirely.
+**SpotMe** automates this entirely.
 1.  **Upload the Gallery**: Load the full set of event photos.
 2.  **Scan Your Face**: Use your camera to provide a reference.
 3.  **Get Your Photos**: The AI instantly filters and presents only the photos *you* are in.
 
 **No Internet Required.** All processing happens locally on your device for maximum privacy and speed.
 
-![EventMatch Banner](https://via.placeholder.com/1200x400?text=EventMatch+AI+Photo+Finder)
+![SpotMe Banner](https://via.placeholder.com/1200x400?text=SpotMe+AI+Photo+Finder)
 
 ## 🚀 Key Features
 
@@ -45,8 +45,8 @@ In large events with **1000s of photos**, finding your personal pictures is like
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/eventmatch.git
-    cd eventmatch
+    git clone https://github.com/yourusername/spotme.git
+    cd spotme
     ```
 
 2.  **Install dependencies**
@@ -84,7 +84,7 @@ VITE_GOOGLE_FOLDER_ID=your_folder_id_here
 ## 📂 Project Structure
 
 ```
-eventmatch/
+spotme/
 ├── components/         # UI Components (FaceScanner, Gallery, etc.)
 ├── services/          # Logic for Face API, Drive, Web, and File Utils
 ├── App.tsx            # Main application logic

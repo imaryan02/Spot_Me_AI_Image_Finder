@@ -32,7 +32,7 @@ export const fetchFileBlob = async (file: DriveFile): Promise<Blob> => {
 /**
  * Downloads a list of files as a ZIP archive.
  */
-export const downloadFilesAsZip = async (files: DriveFile[], zipName: string = 'eventmatch-photos.zip') => {
+export const downloadFilesAsZip = async (files: DriveFile[], zipName: string = 'spotme-photos.zip') => {
     const zip = new JSZip();
     const folder = zip.folder("photos");
 
@@ -84,7 +84,7 @@ export const shareFilesNative = async (files: DriveFile[], title: string = 'My P
     const shareData = {
         files: filesToShare,
         title: title,
-        text: `Here are ${filesToShare.length} photos found with EventMatch!`
+        text: `Here are ${filesToShare.length} photos found with SpotMe!`
     };
 
     if (navigator.canShare(shareData)) {

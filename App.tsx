@@ -240,7 +240,7 @@ function App() {
                   </svg>
                 </div>
                 <div>
-                  <h1 className="font-bold text-lg leading-tight">EventMatch</h1>
+                  <h1 className="font-bold text-lg leading-tight">SpotMe</h1>
                   {allFiles.length > 0 && (
                     <p className="text-xs text-gray-500 hidden sm:block">{allFiles.length} Photos Loaded</p>
                   )}

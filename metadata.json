@@ -1,5 +1,5 @@
 {
-  "name": "EventMatch - AI Photo Finder",
+  "name": "SpotMe - AI Photo Finder",
   "description": "Instantly find your photos from event galleries using secure, client-side face recognition.",
   "requestFramePermissions": [
     "camera"

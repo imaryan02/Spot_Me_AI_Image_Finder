@@ -41,7 +41,7 @@ export const ConfigModal: React.FC<ConfigModalProps> = ({ onSave }) => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
-            <span className="text-xl font-bold tracking-tight text-white">EventMatch</span>
+            <span className="text-xl font-bold tracking-tight text-white">SpotMe</span>
           </div>
 
           <a
@@ -164,7 +164,7 @@ export const ConfigModal: React.FC<ConfigModalProps> = ({ onSave }) => {
 
       {/* FOOTER */}
       <footer className="w-full py-8 text-center text-xs text-gray-600 border-t border-white/5">
-        <p>© 2025 EventMatch • <a href="https://www.linkedin.com/in/imaryan02/" className="hover:text-primary transition-colors">Aryan Gupta</a></p>
+        <p>© 2025 SpotMe • <a href="https://www.linkedin.com/in/imaryan02/" className="hover:text-primary transition-colors">Aryan Gupta</a></p>
       </footer>
 
     </div>
