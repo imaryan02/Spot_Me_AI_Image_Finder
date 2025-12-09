@@ -25,13 +25,16 @@ In large events with **1000s of photos**, finding your personal pictures is like
 *   **Privacy First**: Your face descriptor is generated in memory and never stored or sent to a server.
 *   **Smart Filtering**: Automatically filters thousands of photos to find matches with high accuracy.
 *   **Responsive Design**: Beautiful, dark-themed UI built with Tailwind CSS.
+*   **Easy Sharing & Download** (New!):
+    *   📱 **Native Sharing**: Share photos directly to WhatsApp, Telegram, or other apps on mobile.
+    *   📦 **ZIP Download**: Download all your matches at once as a `.zip` archive.
 
 ## 🛠️ Technology Stack
 
 *   **Frontend**: React 19, TypeScript, Vite
 *   **Styling**: Tailwind CSS (via CDN for rapid prototyping)
 *   **AI/ML**: face-api.js (SSD Mobilenet v1 model)
-*   **State Management**: React Hooks (useState, useEffect)
+*   **Utilities**: JSZip, FileSaver.js
 
 ## 📋 Prerequisites
 
@@ -76,13 +79,14 @@ VITE_GOOGLE_FOLDER_ID=your_folder_id_here
 2.  **Load Gallery**: The app will index the photos. For large galleries, this might take a moment.
 3.  **Scan Face**: Click "Find My Photos" and allow camera access.
 4.  **View Results**: The app will scan the gallery and display photos where you appear.
+5.  **Share/Save**: Select photos to share (mobile) or download individually or as a ZIP.
 
 ## 📂 Project Structure
 
 ```
 eventmatch/
 ├── components/         # UI Components (FaceScanner, Gallery, etc.)
-├── services/          # Logic for Face API, Drive, and Web fetching
+├── services/          # Logic for Face API, Drive, Web, and File Utils
 ├── App.tsx            # Main application logic
 ├── constants.ts       # Configuration constants
 ├── types.ts           # TypeScript interfaces
